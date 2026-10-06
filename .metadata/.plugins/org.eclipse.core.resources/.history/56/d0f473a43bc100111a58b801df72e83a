@@ -1,0 +1,49 @@
+package demo;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Instagram {
+	
+	
+	
+WebDriver driver;
+	
+	public void open() {
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+	}
+	
+	public void close() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		driver.close();
+	}
+	
+	public void search() {
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		driver.findElement(By.id("login1")).sendKeys("9764782726");
+		driver.findElement(By.id("password")).sendKeys("Rushi");
+		driver.findElement(By.name("proceed")).click();
+	}
+
+	public static void main(String[] args) {
+		
+		Search s = new Search();
+		s.open();
+		s.search();
+		s.close();
+		
+
+	}
+}
