@@ -30,7 +30,7 @@ public class Instagramwithandor {
 	public void login() {
 		driver.get("https://www.instagram.com/?hl=en-in");
 		driver.findElement(By.xpath("//input[@id='_r_2_' or @name='email']")).sendKeys("standard_user");
-		driver.findElement(By.xpath("//input[@id='_r_5_' or @name='pass']")).sendKeys("secret_sauce");
+		driver.findElement(By.xpath("//input[@id='_r_5_' and @name='pass']")).sendKeys("secret_sauce");
 		driver.findElement(By.xpath("(//div[contains(@class,'x1ja2u2z')])[42]")).click();
 	}
 

@@ -1,104 +1,75 @@
-0:07:08 Tab2 StartNav51 #typed
-0:07:08 Tab2 FinishNav51
-0:07:08 Tab2 PageLoad
-0:07:15 Memory Pressure: Moderate
-0:07:16 Tab2 StartNav52 #typed
-0:07:16 Tab2 FinishNav52
-0:07:16 Tab2 PageLoad
-0:07:18 Tab2 StartNav53 #typed
-0:07:18 Tab2 FinishNav53
-0:07:18 Tab2 PageLoad
-0:07:20 Tab2 StartNav54 #typed
-0:07:20 Tab2 FinishNav54
-0:07:20 Tab2 PageLoad
-0:07:24 Tab2 StartNav55 #typed
-0:07:24 Tab2 FinishNav55
-0:07:24 Tab2 PageLoad
-0:07:25 Memory Pressure: Moderate
-0:07:27 Tab2 StartNav56 #typed
-0:07:27 Tab2 FinishNav56
-0:07:27 Tab2 PageLoad
-0:07:30 Tab2 StartNav57 #typed
-0:07:30 Tab2 FinishNav57
-0:07:30 Tab2 PageLoad
-0:07:33 Tab2 StartNav58 #typed
-0:07:33 Tab2 FinishNav58
-0:07:33 Tab2 PageLoad
-0:07:35 Memory Pressure: Moderate
-0:07:36 Tab2 StartNav59 #typed
-0:07:36 Tab2 FinishNav59
-0:07:36 Tab2 PageLoad
-0:07:38 Tab2 StartNav60 #typed
-0:07:38 Tab2 FinishNav60
-0:07:38 Tab2 PageLoad
-0:07:42 Tab2 StartNav61 #typed
-0:07:42 Tab2 FinishNav61
-0:07:42 Tab2 PageLoad
-0:07:45 Tab2 StartNav62 #typed
-0:07:45 Tab2 FinishNav62
-0:07:45 Tab2 PageLoad
-0:07:45 Memory Pressure: None
-0:08:26 Tab2 StartNav63 #typed
-0:08:26 Tab2 FinishNav63
-0:08:26 Tab2 PageLoad
-0:08:50 Tab2 StartNav64 #typed
-0:08:50 Tab2 FinishNav64
-0:08:50 Tab2 PageLoad
-0:08:55 Memory Pressure: Moderate
-0:09:05 Memory Pressure: Moderate
-0:09:10 Memory Pressure: Critical
-0:09:15 Memory Pressure: Critical
-0:09:20 Memory Pressure: Critical
-0:09:25 Memory Pressure: Moderate
-0:09:35 Memory Pressure: Moderate
-0:09:45 Memory Pressure: None
-0:09:50 Memory Pressure: Moderate
-0:10:00 Memory Pressure: Moderate
-0:10:10 Memory Pressure: Moderate
-0:10:21 Memory Pressure: Moderate
-0:10:31 Memory Pressure: Moderate
-0:10:41 Memory Pressure: Moderate
-0:10:51 Memory Pressure: Moderate
-0:11:01 Memory Pressure: Moderate
-0:11:11 Memory Pressure: Moderate
-0:11:15 Tab2 StartNav65 #typed
-0:11:15 Tab2 FinishNav65
-0:11:15 Tab2 PageLoad
-0:11:17 Tab2 StartNav66 #typed
-0:11:17 Tab2 FinishNav66
-0:11:17 Tab2 PageLoad
-0:11:21 Memory Pressure: Moderate
-0:11:31 Memory Pressure: Critical
-0:11:32 Tab2 StartNav67 #typed
-0:11:32 Tab2 FinishNav67
-0:11:32 Tab2 PageLoad
-0:11:36 Memory Pressure: Critical
-0:11:41 Memory Pressure: Moderate
-0:11:46 Memory Pressure: Critical
-0:11:51 Memory Pressure: Moderate
-0:12:01 Memory Pressure: Critical
-0:12:06 Memory Pressure: Moderate
-0:12:16 Memory Pressure: Moderate
-0:12:26 Memory Pressure: Moderate
-0:12:29 Tab2 StartNav68 #typed
-0:12:29 Tab2 FinishNav68
-0:12:29 Tab2 PageLoad
-0:12:36 Memory Pressure: Moderate
-0:12:46 Memory Pressure: None
-0:13:25 Tab2 StartNav69 #typed
-0:13:25 Tab2 FinishNav69
-0:13:25 Tab2 PageLoad
-0:13:33 Tab2 StartNav70 #typed
-0:13:33 Tab2 FinishNav70
-0:13:33 Tab2 PageLoad
-0:13:41 Memory Pressure: Moderate
-0:13:51 Memory Pressure: Moderate
-0:14:01 Memory Pressure: Moderate
-0:14:11 Memory Pressure: None
-0:14:31 Memory Pressure: Moderate
-0:14:36 Memory Pressure: None
-0:14:46 Memory Pressure: Moderate
-0:14:56 Memory Pressure: Moderate
-0:15:06 Memory Pressure: Moderate
-0:15:16 Memory Pressure: Moderate
-0:15:26 Memory Pressure: Moderate
+0:33:09 Tab9 StartNav108 #typed
+0:33:09 Tab9 FinishNav108
+0:33:09 Tab9 PageLoad
+0:33:13 Tab9 StartNav109 #typed
+0:33:13 Tab9 FinishNav109
+0:33:13 Tab9 PageLoad
+0:33:13 Memory Pressure: Moderate
+0:33:23 Memory Pressure: Critical
+0:33:28 Memory Pressure: Critical
+0:33:33 Memory Pressure: Critical
+0:33:38 Memory Pressure: Moderate
+0:33:39 Tab9 StartNav110 #typed
+0:33:39 Tab9 FinishNav110
+0:33:39 Tab9 PageLoad
+0:33:43 Memory Pressure: Critical
+0:33:48 Memory Pressure: Critical
+0:33:51 Tab9 StartNav111 #typed
+0:33:51 Tab9 FinishNav111
+0:33:51 Tab9 PageLoad
+0:33:53 Memory Pressure: Moderate
+0:34:03 Memory Pressure: Moderate
+0:34:13 Memory Pressure: Moderate
+0:34:18 Memory Pressure: Critical
+0:34:23 Memory Pressure: Moderate
+0:34:25 Tab9 StartNav112 #typed
+0:34:25 Tab9 FinishNav112
+0:34:25 Tab9 PageLoad
+0:34:26 Tab9 StartNav113 #typed
+0:34:26 Tab9 FinishNav113
+0:34:26 Tab9 PageLoad
+0:34:28 Memory Pressure: Critical
+0:34:33 Memory Pressure: Critical
+0:34:38 Memory Pressure: Critical
+0:34:43 Memory Pressure: Critical
+0:34:48 Memory Pressure: Critical
+0:34:53 Memory Pressure: Critical
+0:34:55 Tab9 StartNav114 #typed
+0:34:55 Tab9 FinishNav114
+0:34:55 Tab9 PageLoad
+0:34:56 Tab9 StartNav115 #typed
+0:34:56 Tab9 FinishNav115
+0:34:56 Tab9 PageLoad
+0:34:58 Memory Pressure: Critical
+0:35:03 Memory Pressure: Critical
+0:35:08 Memory Pressure: Critical
+0:35:13 Memory Pressure: Critical
+0:35:18 Memory Pressure: Critical
+0:35:23 Memory Pressure: Critical
+0:35:28 Memory Pressure: Critical
+0:35:33 Memory Pressure: Critical
+0:35:38 Memory Pressure: Moderate
+0:35:47 Tab9 StartNav116 #typed
+0:35:47 Tab9 FinishNav116
+0:35:47 Tab9 PageLoad
+0:35:48 Tab9 StartNav117 #typed
+0:35:48 Tab9 FinishNav117
+0:35:48 Tab9 PageLoad
+0:35:48 Memory Pressure: Moderate
+0:35:58 Memory Pressure: Moderate
+0:35:58 Tab9 StartNav118 #typed
+0:35:58 Tab9 FinishNav118
+0:35:58 Tab9 PageLoad
+0:36:06 Tab9 StartNav119 #typed
+0:36:07 Tab9 FinishNav119
+0:36:07 Tab9 PageLoad
+0:36:08 Memory Pressure: Critical
+0:36:13 Memory Pressure: Moderate
+0:36:23 Tab9 StartNav120 #typed
+0:36:23 Tab9 FinishNav120
+0:36:23 Tab9 PageLoad
+0:36:23 Memory Pressure: Moderate
+0:36:28 Memory Pressure: Critical
+0:36:33 Memory Pressure: Moderate
+0:36:43 Memory Pressure: Moderate
+0:36:53 Memory Pressure: Moderate
