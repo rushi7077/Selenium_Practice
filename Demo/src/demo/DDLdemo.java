@@ -10,7 +10,10 @@ public class DDLdemo  extends Utility{
 		driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
 		
 		driver.findElement(By.xpath("//input[contains(@placeholder,'name')]")).sendKeys("Rushikesh Baravkar");
-		
+		pause(2000);
+		driver.findElement(By.xpath("//input[contains(@placeholder,'Rediffmail')]")).sendKeys("rushibaravkar1012");
+		pause(2000);
+		driver.findElement(By.xpath("//input[@value='Check availability']")).click();
 		
 		WebElement w = driver.findElement(By.xpath("//select[contains(@name,'Day')]"));
 		Select s = new Select(w);
@@ -27,7 +30,7 @@ public class DDLdemo  extends Utility{
 		s2.selectByVisibleText("2003");
 		pause(2000);
 		
-		screenshot("Birthday");
+
 	}
 	
 	public static void main(String[] args) {
