@@ -14,8 +14,10 @@ public class ActionDemo extends Utility{
 		//ac.contextClick().build().perform();
 		
 		WebElement email = driver.findElement(By.name("email"));
-		ac.contextClick(email).build().perform();
+		//ac.contextClick(email).build().perform();
 		
+		WebElement button = driver.findElement(By.xpath("//*[@id=\"login_form\"]/div/div[1]/div/div[3]/div/div/div"));
+		ac.click(button).build().perform();
 	}
 	
 	public static void main(String[] args) {
