@@ -17,12 +17,7 @@ public class ActionDemoWithHower extends Utility {
 		
 		ac.moveToElement(element).click(subElement).build().perform();
 		
-		pause(5000);
-		
-		
-		
-		
-		
+		pause(5000);		
 		
 	}
 
