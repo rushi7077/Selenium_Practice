@@ -12,6 +12,9 @@ public class IframeDemo extends Utility{
 		System.out.println(s);
 		
 		driver.findElement(By.linkText("The Kitchen")).click();
+		
+		driver.switchTo().defaultContent();		
+		
 	}
 	
 	public static void main(String[] args) {
