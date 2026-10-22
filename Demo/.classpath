@@ -128,5 +128,6 @@
 	<classpathentry kind="lib" path="D:/Apache POI/poi-bin-5.2.3/poi-ooxml-full-5.2.3.jar"/>
 	<classpathentry kind="lib" path="D:/Apache POI/poi-bin-5.2.3/poi-ooxml-lite-5.2.3.jar"/>
 	<classpathentry kind="lib" path="D:/Apache POI/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
