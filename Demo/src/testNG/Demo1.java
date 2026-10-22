@@ -2,6 +2,7 @@ package testNG;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +12,7 @@ public class Demo1 {
 	
 	WebDriver driver;
 	
-	@Test(priority = 1)
+	@Test(priority = 1,invocationCount = 8)
 	public void test1() {
 		
 		System.out.println("This is test 1");
@@ -28,22 +29,23 @@ public class Demo1 {
 	}
 	
 	@Test(priority = 3)
-	public void login() {		
+	public void login() throws InterruptedException {		
 		
 		driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys("standard_user");
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("secret_sauce");		
 		driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
 		
+
+		
 	}
 	
 	@Test(priority=4,timeOut=4000,dependsOnMethods = "login")
 	public void logout() throws InterruptedException {
-		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"react-burger-menu-btn\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"logout_sidebar_link\"]")).click();
 	}
 	
-	@Test(priority = 5)
+	@Test(priority = 5/*,enabled = false*/)
 	public void close() throws InterruptedException {
 		
 		Thread.sleep(2000);
