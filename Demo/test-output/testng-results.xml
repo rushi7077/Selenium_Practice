@@ -2,44 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-23T08:42:39 IST" name="Default suite" finished-at="2026-10-23T08:42:39 IST" duration-ms="49">
+  <suite started-at="2026-10-23T08:48:40 IST" name="Default suite" finished-at="2026-10-23T08:48:45 IST" duration-ms="4618">
     <groups>
     </groups>
-    <test started-at="2026-10-23T08:42:39 IST" name="Default test" finished-at="2026-10-23T08:42:39 IST" duration-ms="49">
-      <class name="testNG.Deno2">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="beforeTest" finished-at="2026-10-23T08:42:39 IST" duration-ms="8" status="PASS">
+    <test started-at="2026-10-23T08:48:40 IST" name="Default test" finished-at="2026-10-23T08:48:45 IST" duration-ms="4618">
+      <class name="testNG.TestActions">
+        <test-method is-config="true" signature="open()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:40 IST" name="open" finished-at="2026-10-23T08:48:42 IST" duration-ms="1680" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="beforeMethod" finished-at="2026-10-23T08:42:39 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- open -->
+        <test-method signature="login1()[pri:1, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="login1" finished-at="2026-10-23T08:48:42 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="test1" finished-at="2026-10-23T08:42:39 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="logout" finished-at="2026-10-23T08:48:42 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="afterMethod" finished-at="2026-10-23T08:42:39 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="login2()[pri:2, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="login2" finished-at="2026-10-23T08:48:42 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="beforeMethod" finished-at="2026-10-23T08:42:39 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="logout" finished-at="2026-10-23T08:48:43 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="test2" finished-at="2026-10-23T08:42:39 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:43 IST" name="close" finished-at="2026-10-23T08:48:45 IST" duration-ms="2149" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="afterMethod" finished-at="2026-10-23T08:42:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.Deno2@7bedc48a]" started-at="2026-10-23T08:42:39 IST" name="afterTest" finished-at="2026-10-23T08:42:39 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testNG.Deno2 -->
+        </test-method> <!-- close -->
+      </class> <!-- testNG.TestActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
