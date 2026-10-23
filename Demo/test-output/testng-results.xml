@@ -2,32 +2,40 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-23T08:48:40 IST" name="Default suite" finished-at="2026-10-23T08:48:45 IST" duration-ms="4618">
+  <suite started-at="2026-10-23T09:05:24 IST" name="Default suite" finished-at="2026-10-23T09:05:30 IST" duration-ms="5200">
     <groups>
     </groups>
-    <test started-at="2026-10-23T08:48:40 IST" name="Default test" finished-at="2026-10-23T08:48:45 IST" duration-ms="4618">
+    <test started-at="2026-10-23T09:05:24 IST" name="Default test" finished-at="2026-10-23T09:05:30 IST" duration-ms="5200">
       <class name="testNG.TestActions">
-        <test-method is-config="true" signature="open()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:40 IST" name="open" finished-at="2026-10-23T08:48:42 IST" duration-ms="1680" status="PASS">
+        <test-method is-config="true" signature="open()[pri:0, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:24 IST" name="open" finished-at="2026-10-23T09:05:26 IST" duration-ms="1644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="login1()[pri:1, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="login1" finished-at="2026-10-23T08:48:42 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="readExcelData()[pri:0, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:26 IST" name="readExcelData" finished-at="2026-10-23T09:05:27 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelData -->
+        <test-method signature="login1()[pri:1, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:27 IST" name="login1" finished-at="2026-10-23T09:05:27 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="logout" finished-at="2026-10-23T08:48:42 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:27 IST" name="logout" finished-at="2026-10-23T09:05:27 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="login2()[pri:2, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="login2" finished-at="2026-10-23T08:48:42 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="readExcelData()[pri:0, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:27 IST" name="readExcelData" finished-at="2026-10-23T09:05:27 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcelData -->
+        <test-method signature="login2()[pri:2, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:27 IST" name="login2" finished-at="2026-10-23T09:05:27 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:42 IST" name="logout" finished-at="2026-10-23T08:48:43 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:27 IST" name="logout" finished-at="2026-10-23T09:05:27 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testNG.TestActions@2df3b89c]" started-at="2026-10-23T08:48:43 IST" name="close" finished-at="2026-10-23T08:48:45 IST" duration-ms="2149" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testNG.TestActions@37ceb1df]" started-at="2026-10-23T09:05:27 IST" name="close" finished-at="2026-10-23T09:05:30 IST" duration-ms="2217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
