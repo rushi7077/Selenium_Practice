@@ -2,64 +2,72 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-26T08:58:13 IST" name="Suite" finished-at="2026-10-26T08:58:13 IST" duration-ms="92">
+  <suite started-at="2026-10-26T09:07:48 IST" name="Suite" finished-at="2026-10-26T09:07:48 IST" duration-ms="131">
     <groups>
     </groups>
-    <test started-at="2026-10-26T08:58:13 IST" name="Test1" finished-at="2026-10-26T08:58:13 IST" duration-ms="41">
+    <test started-at="2026-10-26T09:07:48 IST" name="Test1" finished-at="2026-10-26T09:07:48 IST" duration-ms="56">
       <class name="testNG.DemoB">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoB@20d525]" started-at="2026-10-26T08:58:13 IST" name="beforeTest" finished-at="2026-10-26T08:58:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoB@6f4a47c7]" started-at="2026-10-26T09:07:48 IST" name="beforeTest" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test1()[pri:0, instance:testNG.DemoB@20d525]" started-at="2026-10-26T08:58:13 IST" name="test1" finished-at="2026-10-26T08:58:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1()[pri:0, instance:testNG.DemoB@6f4a47c7]" started-at="2026-10-26T09:07:48 IST" name="test1" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:testNG.DemoB@20d525]" started-at="2026-10-26T08:58:13 IST" name="test2" finished-at="2026-10-26T08:58:13 IST" duration-ms="2" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testNG.DemoB@6f4a47c7]" started-at="2026-10-26T09:07:48 IST" name="test2" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterTestest()[pri:0, instance:testNG.DemoB@20d525]" started-at="2026-10-26T08:58:13 IST" name="afterTestest" finished-at="2026-10-26T08:58:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTestest()[pri:0, instance:testNG.DemoB@6f4a47c7]" started-at="2026-10-26T09:07:48 IST" name="afterTestest" finished-at="2026-10-26T09:07:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestest -->
       </class> <!-- testNG.DemoB -->
       <class name="testNG.DemoA">
-        <test-method signature="test1()[pri:0, instance:testNG.DemoA@5bda8e08]" started-at="2026-10-26T08:58:13 IST" name="test1" finished-at="2026-10-26T08:58:13 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.DemoA@55b0dcab]" started-at="2026-10-26T09:07:48 IST" name="beforeClass" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:0, instance:testNG.DemoA@55b0dcab]" started-at="2026-10-26T09:07:48 IST" name="test1" finished-at="2026-10-26T09:07:48 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:testNG.DemoA@5bda8e08]" started-at="2026-10-26T08:58:13 IST" name="test2" finished-at="2026-10-26T08:58:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testNG.DemoA@55b0dcab]" started-at="2026-10-26T09:07:48 IST" name="test2" finished-at="2026-10-26T09:07:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testNG.DemoA@55b0dcab]" started-at="2026-10-26T09:07:48 IST" name="AfterClass" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
       </class> <!-- testNG.DemoA -->
     </test> <!-- Test1 -->
-    <test started-at="2026-10-26T08:58:13 IST" name="Test2" finished-at="2026-10-26T08:58:13 IST" duration-ms="8">
+    <test started-at="2026-10-26T09:07:48 IST" name="Test2" finished-at="2026-10-26T09:07:48 IST" duration-ms="7">
       <class name="testNG.DemoB">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.DemoB@20d525]" started-at="2026-10-26T08:58:13 IST" name="beforeSuite" finished-at="2026-10-26T08:58:13 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.DemoB@6f4a47c7]" started-at="2026-10-26T09:07:48 IST" name="beforeSuite" finished-at="2026-10-26T09:07:48 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testNG.DemoB@20d525]" started-at="2026-10-26T08:58:13 IST" name="AfterSuite" finished-at="2026-10-26T08:58:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testNG.DemoB@6f4a47c7]" started-at="2026-10-26T09:07:48 IST" name="AfterSuite" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
       </class> <!-- testNG.DemoB -->
       <class name="testNG.DemoC">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoC@2d2ffcb7]" started-at="2026-10-26T08:58:13 IST" name="beforeTest" finished-at="2026-10-26T08:58:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DemoC@10d68fcd]" started-at="2026-10-26T09:07:48 IST" name="beforeTest" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test1()[pri:0, instance:testNG.DemoC@2d2ffcb7]" started-at="2026-10-26T08:58:13 IST" name="test1" finished-at="2026-10-26T08:58:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="test1()[pri:0, instance:testNG.DemoC@10d68fcd]" started-at="2026-10-26T09:07:48 IST" name="test1" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:testNG.DemoC@2d2ffcb7]" started-at="2026-10-26T08:58:13 IST" name="test2" finished-at="2026-10-26T08:58:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testNG.DemoC@10d68fcd]" started-at="2026-10-26T09:07:48 IST" name="test2" finished-at="2026-10-26T09:07:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterTestest()[pri:0, instance:testNG.DemoC@2d2ffcb7]" started-at="2026-10-26T08:58:13 IST" name="afterTestest" finished-at="2026-10-26T08:58:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTestest()[pri:0, instance:testNG.DemoC@10d68fcd]" started-at="2026-10-26T09:07:48 IST" name="afterTestest" finished-at="2026-10-26T09:07:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestest -->

@@ -13,5 +13,14 @@ public class DemoA {
 	public void test2() {
 		System.out.println("2A");
 	}
+	
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("this is before class A");
+	}
+	@AfterClass
+	public void AfterClass() {
+		System.out.println("this is after class A");
+	}
 
 }
