@@ -7,8 +7,8 @@
         <methods>
           <include name="close"/>
           <include name="logout"/>
-          <include name="readExcelData"/>
           <include name="login1"/>
+          <include name="readExcelData"/>
           <include name="login2"/>
           <include name="open"/>
         </methods>

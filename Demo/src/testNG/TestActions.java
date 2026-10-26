@@ -1,10 +1,14 @@
+
 package testNG;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
 
-import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,9 +18,9 @@ public class TestActions {
 
     WebDriver driver;
 
-    String username;
-    String password;
-    int rowNum = 1;
+    ArrayList<String> un = new ArrayList<>();
+    ArrayList<String> pw = new ArrayList<>();
+
 
     @BeforeTest
     public void open() {
@@ -26,29 +30,35 @@ public class TestActions {
         driver.get("https://www.saucedemo.com/");
     }
 
-    @BeforeMethod
-    public void readExcelData() throws IOException {
+    @BeforeTest
+    public void read_data() throws Exception {
 
-        FileInputStream fis = new FileInputStream("D:\\SeleniumExcel/LoginData.xlsx");
-        Workbook workbook = WorkbookFactory.create(fis);
+        FileInputStream fi = new FileInputStream("D:\\SeleniumExcel\\LoginData.xlsx");
 
-        Sheet sheet = workbook.getSheet("Sheet1");
-        Row row = sheet.getRow(rowNum);
+        XSSFWorkbook wb = new XSSFWorkbook(fi);
+        XSSFSheet sheet = wb.getSheet("Sheet1");
 
-        username = row.getCell(0).getStringCellValue();
-        password = row.getCell(1).getStringCellValue();
+        int rowcount = sheet.getLastRowNum();
 
-        rowNum++;
+        for (int i = 1; i <= rowcount; i++) {
+            XSSFRow row = sheet.getRow(i);
 
-        workbook.close();
-        fis.close();
+            String s = row.getCell(0).getStringCellValue();
+            String ss = row.getCell(1).getStringCellValue();
+
+            un.add(s);
+            pw.add(ss);
+        }
+
+        wb.close();
+        fi.close();
     }
 
     @Test(priority = 1)
     public void login1() throws InterruptedException {
 
-        driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys(username);
-        driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(password);
+        driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys(un.get(0));
+        driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(pw.get(0));
         driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
 
     }
@@ -56,8 +66,8 @@ public class TestActions {
     @Test(priority = 2)
     public void login2() throws InterruptedException {
 
-        driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys(username);
-        driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(password);
+        driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys(un.get(1));
+        driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys(pw.get(1));
         driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
 
     }
@@ -73,5 +83,4 @@ public class TestActions {
         Thread.sleep(2000);
         driver.quit();
     }
-
 }
