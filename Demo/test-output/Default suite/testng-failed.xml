@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.TestActions">
+      <class name="xmlDemo.AssertJava">
         <methods>
-          <include name="close"/>
-          <include name="logout"/>
-          <include name="login1"/>
-          <include name="readExcelData"/>
-          <include name="login2"/>
-          <include name="open"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testNG.TestActions -->
+      </class> <!-- xmlDemo.AssertJava -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

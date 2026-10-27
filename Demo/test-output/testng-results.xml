@@ -1,67 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-27T08:15:23 IST" name="Suite" finished-at="2026-10-27T08:15:34 IST" duration-ms="10695">
+  <suite started-at="2026-10-27T08:27:27 IST" name="Default suite" finished-at="2026-10-27T08:27:27 IST" duration-ms="55">
     <groups>
     </groups>
-    <test started-at="2026-10-27T08:15:23 IST" name="Test" finished-at="2026-10-27T08:15:34 IST" duration-ms="10695">
-      <class name="xmlDemo.Login1">
-        <test-method is-config="true" signature="open()[pri:0, instance:xmlDemo.Login1@38afe297]" started-at="2026-10-27T08:15:24 IST" name="open" finished-at="2026-10-27T08:15:28 IST" duration-ms="4021" status="PASS">
+    <test started-at="2026-10-27T08:27:27 IST" name="Default test" finished-at="2026-10-27T08:27:27 IST" duration-ms="55">
+      <class name="xmlDemo.AssertJava">
+        <test-method signature="test1()[pri:0, instance:xmlDemo.AssertJava@5aa9e4eb]" started-at="2026-10-27T08:27:27 IST" name="test1" finished-at="2026-10-27T08:27:27 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [hello] but found [Hello]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [hello] but found [Hello]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at xmlDemo.AssertJava.test1(AssertJava.java:10)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:xmlDemo.Login1@38afe297]" started-at="2026-10-27T08:15:31 IST" name="openPage" finished-at="2026-10-27T08:15:32 IST" duration-ms="685" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:xmlDemo.AssertJava@5aa9e4eb]" started-at="2026-10-27T08:27:27 IST" name="test2" finished-at="2026-10-27T08:27:27 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openPage -->
-        <test-method signature="login()[pri:0, instance:xmlDemo.Login1@38afe297]" started-at="2026-10-27T08:15:32 IST" name="login" finished-at="2026-10-27T08:15:32 IST" duration-ms="450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="close()[pri:0, instance:xmlDemo.Login1@38afe297]" started-at="2026-10-27T08:15:34 IST" name="close" finished-at="2026-10-27T08:15:34 IST" duration-ms="177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- xmlDemo.Login1 -->
-      <class name="xmlDemo.Login2">
-        <test-method is-config="true" signature="openPage()[pri:0, instance:xmlDemo.Login2@20d525]" started-at="2026-10-27T08:15:32 IST" name="openPage" finished-at="2026-10-27T08:15:32 IST" duration-ms="145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openPage -->
-        <test-method signature="login()[pri:0, instance:xmlDemo.Login2@20d525]" started-at="2026-10-27T08:15:32 IST" name="login" finished-at="2026-10-27T08:15:33 IST" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- xmlDemo.Login2 -->
-      <class name="xmlDemo.Login3">
-        <test-method is-config="true" signature="open()[pri:0, instance:xmlDemo.Login3@6200f9cb]" started-at="2026-10-27T08:15:28 IST" name="open" finished-at="2026-10-27T08:15:31 IST" duration-ms="3469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:xmlDemo.Login3@6200f9cb]" started-at="2026-10-27T08:15:33 IST" name="openPage" finished-at="2026-10-27T08:15:33 IST" duration-ms="554" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openPage -->
-        <test-method signature="login()[pri:0, instance:xmlDemo.Login3@6200f9cb]" started-at="2026-10-27T08:15:33 IST" name="login" finished-at="2026-10-27T08:15:33 IST" duration-ms="324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="close()[pri:0, instance:xmlDemo.Login3@6200f9cb]" started-at="2026-10-27T08:15:34 IST" name="close" finished-at="2026-10-27T08:15:34 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- xmlDemo.Login3 -->
-      <class name="xmlDemo.Login4">
-        <test-method is-config="true" signature="openPage()[pri:0, instance:xmlDemo.Login4@2002fc1d]" started-at="2026-10-27T08:15:33 IST" name="openPage" finished-at="2026-10-27T08:15:34 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openPage -->
-        <test-method signature="login()[pri:0, instance:xmlDemo.Login4@2002fc1d]" started-at="2026-10-27T08:15:34 IST" name="login" finished-at="2026-10-27T08:15:34 IST" duration-ms="245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- xmlDemo.Login4 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test2 -->
+      </class> <!-- xmlDemo.AssertJava -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
