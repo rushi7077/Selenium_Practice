@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="xmlDemo.Assert1">
+      <class name="xmlDemo.multipleLogin">
         <methods>
-          <include name="login"/>
+          <include name="ReadData"/>
+          <include name="close"/>
+          <include name="loginTest"/>
           <include name="open"/>
         </methods>
-      </class> <!-- xmlDemo.Assert1 -->
+      </class> <!-- xmlDemo.multipleLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
