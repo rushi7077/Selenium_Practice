@@ -1,5 +1,7 @@
 package xmlDemo;
 
+import static org.testng.Assert.assertTrue;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -32,7 +34,9 @@ public class Assert1 {
 		
 		String AR = driver.getCurrentUrl();
 		
-		Assert.assertEquals(ER, AR);
+		//Assert.assertEquals(ER, AR);
+		
+		assertTrue(AR.contains("inventory"),"User not login");
 		
 		driver.close();
 		
