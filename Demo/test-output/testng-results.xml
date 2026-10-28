@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-28T09:17:36 IST" name="Default suite" finished-at="2026-10-28T09:17:41 IST" duration-ms="5532">
+  <suite started-at="2026-10-28T09:54:08 IST" name="Suite" finished-at="2026-10-28T09:54:13 IST" duration-ms="5200">
     <groups>
     </groups>
-    <test started-at="2026-10-28T09:17:36 IST" name="Default test" finished-at="2026-10-28T09:17:41 IST" duration-ms="5532">
-      <class name="propFile.demo">
-        <test-method is-config="true" signature="readData()[pri:0, instance:propFile.demo@2df3b89c]" started-at="2026-10-28T09:17:36 IST" name="readData" finished-at="2026-10-28T09:17:36 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readData -->
-        <test-method is-config="true" signature="open()[pri:0, instance:propFile.demo@2df3b89c]" started-at="2026-10-28T09:17:36 IST" name="open" finished-at="2026-10-28T09:17:38 IST" duration-ms="1736" status="PASS">
+    <test started-at="2026-10-28T09:54:08 IST" name="Test" finished-at="2026-10-28T09:54:13 IST" duration-ms="5200">
+      <class name="ParawithFacebook.Facebook">
+        <test-method is-config="true" signature="open()[pri:0, instance:ParawithFacebook.Facebook@4116aac9]" started-at="2026-10-28T09:54:08 IST" name="open" finished-at="2026-10-28T09:54:11 IST" duration-ms="3176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="login()[pri:0, instance:propFile.demo@2df3b89c]" started-at="2026-10-28T09:17:38 IST" name="login" finished-at="2026-10-28T09:17:39 IST" duration-ms="1630" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:ParawithFacebook.Facebook@4116aac9]" started-at="2026-10-28T09:54:11 IST" name="login" finished-at="2026-10-28T09:54:13 IST" duration-ms="1982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rushi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="close()[pri:0, instance:propFile.demo@2df3b89c]" started-at="2026-10-28T09:17:39 IST" name="close" finished-at="2026-10-28T09:17:41 IST" duration-ms="2125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- propFile.demo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- ParawithFacebook.Facebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
