@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-27T10:05:38 IST" name="Default suite" finished-at="2026-10-27T10:06:04 IST" duration-ms="25796">
+  <suite started-at="2026-10-28T08:45:41 IST" name="Suite" finished-at="2026-10-28T08:45:41 IST" duration-ms="94">
     <groups>
     </groups>
-    <test started-at="2026-10-27T10:05:38 IST" name="Default test" finished-at="2026-10-27T10:06:04 IST" duration-ms="25796">
-      <class name="xmlDemo.multipleLogin">
-        <test-method is-config="true" signature="ReadData()[pri:0, instance:xmlDemo.multipleLogin@3d34d211]" started-at="2026-10-27T10:05:38 IST" name="ReadData" finished-at="2026-10-27T10:05:38 IST" duration-ms="508" status="PASS">
+    <test started-at="2026-10-28T08:45:41 IST" name="Test1" finished-at="2026-10-28T08:45:41 IST" duration-ms="40">
+      <class name="parameterisation.Addition">
+        <test-method signature="add(int,int)[pri:0, instance:parameterisation.Addition@7dcf94f8]" started-at="2026-10-28T08:45:41 IST" name="add" finished-at="2026-10-28T08:45:41 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReadData -->
-        <test-method is-config="true" signature="open()[pri:0, instance:xmlDemo.multipleLogin@3d34d211]" started-at="2026-10-27T10:05:38 IST" name="open" finished-at="2026-10-27T10:05:40 IST" duration-ms="1297" status="PASS">
+        </test-method> <!-- add -->
+      </class> <!-- parameterisation.Addition -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-10-28T08:45:41 IST" name="Test2" finished-at="2026-10-28T08:45:41 IST" duration-ms="4">
+      <class name="parameterisation.Subtraction">
+        <test-method signature="subtract(int,int)[pri:0, instance:parameterisation.Subtraction@4961f6af]" started-at="2026-10-28T08:45:41 IST" name="subtract" finished-at="2026-10-28T08:45:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-        <test-method signature="loginTest()[pri:0, instance:xmlDemo.multipleLogin@3d34d211]" started-at="2026-10-27T10:05:40 IST" name="loginTest" finished-at="2026-10-27T10:06:00 IST" duration-ms="20708" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:xmlDemo.multipleLogin@3d34d211]" started-at="2026-10-27T10:06:00 IST" name="close" finished-at="2026-10-27T10:06:04 IST" duration-ms="3239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- xmlDemo.multipleLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- subtract -->
+      </class> <!-- parameterisation.Subtraction -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
