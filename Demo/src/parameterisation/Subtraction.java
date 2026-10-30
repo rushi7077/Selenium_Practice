@@ -8,7 +8,7 @@ public class Subtraction {
 	@Test
 	@Parameters({"num1","num2"})
 	public void subtract(int a,int b) {
-		System.out.println("Addition is "+(a-b));
+		System.out.println("Subtraction is "+(a-b));
 	}
 
 }

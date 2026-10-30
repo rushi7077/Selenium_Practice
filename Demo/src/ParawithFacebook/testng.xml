@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
 
   	<parameter name="name" value ="Rushi"></parameter>
-  	<parameter name="pass" value ="1345"></parameter>
+  	<parameter name="pass" value ="12345"></parameter>
    <classes>
       <class name="ParawithFacebook.Facebook"/>
     </classes>

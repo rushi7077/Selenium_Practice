@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-28T09:54:08 IST" name="Suite" finished-at="2026-10-28T09:54:13 IST" duration-ms="5200">
+  <suite started-at="2026-10-30T08:11:31 IST" name="Suite" finished-at="2026-10-30T08:11:31 IST" duration-ms="122">
     <groups>
     </groups>
-    <test started-at="2026-10-28T09:54:08 IST" name="Test" finished-at="2026-10-28T09:54:13 IST" duration-ms="5200">
-      <class name="ParawithFacebook.Facebook">
-        <test-method is-config="true" signature="open()[pri:0, instance:ParawithFacebook.Facebook@4116aac9]" started-at="2026-10-28T09:54:08 IST" name="open" finished-at="2026-10-28T09:54:11 IST" duration-ms="3176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:ParawithFacebook.Facebook@4116aac9]" started-at="2026-10-28T09:54:11 IST" name="login" finished-at="2026-10-28T09:54:13 IST" duration-ms="1982" status="PASS">
+    <test started-at="2026-10-30T08:11:31 IST" name="Test1" finished-at="2026-10-30T08:11:31 IST" duration-ms="50">
+      <class name="parameterisation.Addition">
+        <test-method signature="add(int,int)[pri:0, instance:parameterisation.Addition@7dcf94f8]" started-at="2026-10-30T08:11:31 IST" name="add" finished-at="2026-10-30T08:11:31 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rushi]]>
+                <![CDATA[10]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1345]]>
+                <![CDATA[15]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- ParawithFacebook.Facebook -->
-    </test> <!-- Test -->
+        </test-method> <!-- add -->
+      </class> <!-- parameterisation.Addition -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-10-30T08:11:31 IST" name="Test2" finished-at="2026-10-30T08:11:31 IST" duration-ms="7">
+      <class name="parameterisation.Subtraction">
+        <test-method signature="subtract(int,int)[pri:0, instance:parameterisation.Subtraction@4961f6af]" started-at="2026-10-30T08:11:31 IST" name="subtract" finished-at="2026-10-30T08:11:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtract -->
+      </class> <!-- parameterisation.Subtraction -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
