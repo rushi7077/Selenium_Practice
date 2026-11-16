@@ -2,32 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-30T09:16:11 IST" name="Default suite" finished-at="2026-10-30T09:16:16 IST" duration-ms="4241">
+  <suite started-at="2026-11-16T09:24:58 IST" name="Suite" finished-at="2026-11-16T09:25:24 IST" duration-ms="25962">
     <groups>
     </groups>
-    <test started-at="2026-10-30T09:16:11 IST" name="Default test" finished-at="2026-10-30T09:16:16 IST" duration-ms="4241">
-      <class name="extendReport.Demo1">
-        <test-method is-config="true" signature="initReport()[pri:0, instance:extendReport.Demo1@10aa41f2]" started-at="2026-10-30T09:16:11 IST" name="initReport" finished-at="2026-10-30T09:16:11 IST" duration-ms="80" status="PASS">
+    <test started-at="2026-11-16T09:24:58 IST" name="Test" finished-at="2026-11-16T09:25:24 IST" duration-ms="25962">
+      <class name="extendReport.Demo">
+        <test-method is-config="true" signature="ReadData()[pri:0, instance:extendReport.Demo@707194ba]" started-at="2026-11-16T09:24:58 IST" name="ReadData" finished-at="2026-11-16T09:24:59 IST" duration-ms="1117" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initReport -->
-        <test-method is-config="true" signature="open()[pri:0, instance:extendReport.Demo1@10aa41f2]" started-at="2026-10-30T09:16:11 IST" name="open" finished-at="2026-10-30T09:16:13 IST" duration-ms="1238" status="PASS">
+        </test-method> <!-- ReadData -->
+        <test-method is-config="true" signature="open()[pri:0, instance:extendReport.Demo@707194ba]" started-at="2026-11-16T09:24:59 IST" name="open" finished-at="2026-11-16T09:25:13 IST" duration-ms="14083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="test()[pri:0, instance:extendReport.Demo1@10aa41f2]" started-at="2026-10-30T09:16:13 IST" name="test" finished-at="2026-10-30T09:16:13 IST" duration-ms="708" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:extendReport.Demo@707194ba]" started-at="2026-11-16T09:25:13 IST" name="loginTest" finished-at="2026-11-16T09:25:23 IST" duration-ms="9441" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:extendReport.Demo1@10aa41f2]" started-at="2026-10-30T09:16:13 IST" name="close" finished-at="2026-10-30T09:16:16 IST" duration-ms="2248" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:extendReport.Demo@707194ba]" started-at="2026-11-16T09:25:23 IST" name="close" finished-at="2026-11-16T09:25:24 IST" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:extendReport.Demo1@10aa41f2]" started-at="2026-10-30T09:16:16 IST" name="endReport" finished-at="2026-10-30T09:16:16 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- extendReport.Demo1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- extendReport.Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

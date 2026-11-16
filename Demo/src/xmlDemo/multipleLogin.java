@@ -66,7 +66,7 @@ public class multipleLogin {
 		
 		for(int i=0;i<u.size();i++) {
 			
-			driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys("standard_user");
+			driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys();
 			driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("secret_sauce");		
 			driver.findElement(By.xpath("//*[@id=\"login-button\"]")).click();
 			
