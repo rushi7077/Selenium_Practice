@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.testng.annotations.AfterMethod;
 
 public class Utility {
 	
@@ -44,14 +45,19 @@ public class Utility {
 		driver.get(name);
 	}
 	
-	 public void screenShot(String name) throws IOException {
+	 public void screenShot(String name) {
 
 	        TakesScreenshot ts = (TakesScreenshot) driver;
 
 	        File from = ts.getScreenshotAs(OutputType.FILE);
 	        File to = new File(name+".png");
 
-	        FileHandler.copy(from, to);
+	        try {
+				FileHandler.copy(from, to);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 
 	        System.out.println("Screenshot saved successfully!");
 	    }

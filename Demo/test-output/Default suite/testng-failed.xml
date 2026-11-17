@@ -5,7 +5,8 @@
     <classes>
       <class name="pomDemo.Demo1">
         <methods>
-          <include name="login1"/>
+          <include name="close"/>
+          <include name="open"/>
           <include name="login2"/>
           <include name="logout"/>
         </methods>

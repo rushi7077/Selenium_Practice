@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-17T09:05:44 IST" name="Default suite" finished-at="2026-11-17T09:05:56 IST" duration-ms="12187">
+  <suite started-at="2026-11-17T09:49:31 IST" name="Default suite" finished-at="2026-11-17T09:49:47 IST" duration-ms="15816">
     <groups>
     </groups>
-    <test started-at="2026-11-17T09:05:44 IST" name="Default test" finished-at="2026-11-17T09:05:56 IST" duration-ms="12187">
+    <test started-at="2026-11-17T09:49:31 IST" name="Default test" finished-at="2026-11-17T09:49:47 IST" duration-ms="15816">
       <class name="pomDemo.Demo1">
-        <test-method is-config="true" signature="open()[pri:0, instance:pomDemo.Demo1@58a9760d]" started-at="2026-11-17T09:05:44 IST" name="open" finished-at="2026-11-17T09:05:49 IST" duration-ms="4826" status="PASS">
+        <test-method is-config="true" signature="open()[pri:0, instance:pomDemo.Demo1@4e3958e7]" started-at="2026-11-17T09:49:31 IST" name="open" finished-at="2026-11-17T09:49:35 IST" duration-ms="4081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="login1()[pri:0, instance:pomDemo.Demo1@58a9760d]" started-at="2026-11-17T09:05:49 IST" name="login1" finished-at="2026-11-17T09:05:49 IST" duration-ms="429" status="PASS">
+        <test-method signature="login1()[pri:1, instance:pomDemo.Demo1@4e3958e7]" started-at="2026-11-17T09:49:35 IST" name="login1" finished-at="2026-11-17T09:49:35 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:pomDemo.Demo1@58a9760d]" started-at="2026-11-17T09:05:49 IST" name="logout" finished-at="2026-11-17T09:05:53 IST" duration-ms="3573" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:pomDemo.Demo1@4e3958e7]" started-at="2026-11-17T09:49:35 IST" name="logout" finished-at="2026-11-17T09:49:39 IST" duration-ms="3152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="login2()[pri:0, instance:pomDemo.Demo1@58a9760d]" started-at="2026-11-17T09:05:53 IST" name="login2" finished-at="2026-11-17T09:05:53 IST" duration-ms="134" status="PASS">
+        <test-method signature="login2()[pri:2, instance:pomDemo.Demo1@4e3958e7]" started-at="2026-11-17T09:49:39 IST" name="login2" finished-at="2026-11-17T09:49:44 IST" duration-ms="5109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login2 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:pomDemo.Demo1@58a9760d]" started-at="2026-11-17T09:05:53 IST" name="logout" finished-at="2026-11-17T09:05:56 IST" duration-ms="3153" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:pomDemo.Demo1@4e3958e7]" started-at="2026-11-17T09:49:44 IST" name="logout" finished-at="2026-11-17T09:49:47 IST" duration-ms="3158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
