@@ -1,90 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-19T08:57:57 IST" name="Default suite" finished-at="2026-11-19T08:59:09 IST" duration-ms="72340">
+  <suite started-at="2026-11-19T09:44:55 IST" name="Default suite" finished-at="2026-11-19T09:45:07 IST" duration-ms="11393">
     <groups>
     </groups>
-    <test started-at="2026-11-19T08:57:57 IST" name="Default test" finished-at="2026-11-19T08:59:09 IST" duration-ms="72340">
+    <test started-at="2026-11-19T09:44:55 IST" name="Default test" finished-at="2026-11-19T09:45:07 IST" duration-ms="11393">
       <class name="pomDemo.Demo1">
-        <test-method is-config="true" signature="open()[pri:0, instance:pomDemo.Demo1@2d2ffcb7]" started-at="2026-11-19T08:57:57 IST" name="open" finished-at="2026-11-19T08:58:28 IST" duration-ms="30571" status="PASS">
+        <test-method is-config="true" signature="initReport()[pri:0, instance:pomDemo.Demo1@3f56875e]" started-at="2026-11-19T09:44:55 IST" name="initReport" finished-at="2026-11-19T09:44:55 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="open()[pri:0, instance:pomDemo.Demo1@3f56875e]" started-at="2026-11-19T09:44:55 IST" name="open" finished-at="2026-11-19T09:45:01 IST" duration-ms="5475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method is-config="true" signature="readData()[pri:0, instance:pomDemo.Demo1@2d2ffcb7]" started-at="2026-11-19T08:58:28 IST" name="readData" finished-at="2026-11-19T08:58:32 IST" duration-ms="3908" status="PASS">
+        <test-method is-config="true" signature="readData()[pri:0, instance:pomDemo.Demo1@3f56875e]" started-at="2026-11-19T09:45:01 IST" name="readData" finished-at="2026-11-19T09:45:01 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readData -->
-        <test-method signature="login1()[pri:2, instance:pomDemo.Demo1@2d2ffcb7]" started-at="2026-11-19T08:58:32 IST" name="login1" finished-at="2026-11-19T08:59:04 IST" duration-ms="32212" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: #react\-burger\-menu\-btn
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [128c8a1e-d699-47b6-b85b-93723bd64a25, findElement {value=react-burger-menu-btn, using=id}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 160.0.1, moz:accessibilityChecks: false, moz:buildID: 20261116130455, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28408, moz:profile: C:\Users\RUSHIK~1\AppData\L..., moz:shutdownTimeout: 73000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 128c8a1e-d699-47b6-b85b-93723bd64a25]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #react\-burger\-menu\-btn
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [128c8a1e-d699-47b6-b85b-93723bd64a25, findElement {value=react-burger-menu-btn, using=id}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 160.0.1, moz:accessibilityChecks: false, moz:buildID: 20261116130455, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28408, moz:profile: C:\Users\RUSHIK~1\AppData\L..., moz:shutdownTimeout: 73000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 128c8a1e-d699-47b6-b85b-93723bd64a25
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:252)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:667)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:432)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:426)
-at pomDemo.Utility.doClick(Utility.java:68)
-at pomDemo.Demo1.login1(Demo1.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="login1()[pri:1, instance:pomDemo.Demo1@3f56875e]" started-at="2026-11-19T09:45:01 IST" name="login1" finished-at="2026-11-19T09:45:01 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:pomDemo.Demo1@2d2ffcb7]" started-at="2026-11-19T08:59:04 IST" name="close_browser" finished-at="2026-11-19T08:59:09 IST" duration-ms="5586" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:pomDemo.Demo1@3f56875e]" started-at="2026-11-19T09:45:01 IST" name="close_browser" finished-at="2026-11-19T09:45:07 IST" duration-ms="5696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:pomDemo.Demo1@3f56875e]" started-at="2026-11-19T09:45:07 IST" name="endReport" finished-at="2026-11-19T09:45:07 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- pomDemo.Demo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

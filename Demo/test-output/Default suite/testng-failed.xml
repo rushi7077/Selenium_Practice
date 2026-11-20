@@ -8,6 +8,8 @@
           <include name="open"/>
           <include name="login1"/>
           <include name="close_browser"/>
+          <include name="endReport"/>
+          <include name="initReport"/>
           <include name="readData"/>
         </methods>
       </class> <!-- pomDemo.Demo1 -->
